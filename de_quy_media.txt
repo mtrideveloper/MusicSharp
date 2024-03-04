@@ -1,0 +1,38 @@
+					mediaPlayerPlayed = init(path(index))
+					^									|
+					|									v
+					|									Listener(slider)
+					|													|
+					|													v
+					|													setOnEndMedia
+					|																|
+					|																v
+					|																OptionsReplay
+					|																			|
+					|																			v
+					|																			disposeMediaPrevious 
+					|																								|
+					|																								v
+					|																								change_indexMedia
+					|																												|
+					|----------------------------------------------------------------------------------------------------------------
+
+
+/// 1 mediaPlayer
+
+
+				mediaPlayerPlayed = new MediaPlayer(path)
+				^										|
+				|										v
+				|										Listener(slider)
+				|														|
+				|														v
+				|														setOnEndMedia
+				|																	|
+				|																	v
+				|																	OptionsReplay
+				|																				|
+				|																				v
+				|																				disposeMediaPrevious 
+				|																									|
+				|----------------------------------------------------------------------------------------------------
